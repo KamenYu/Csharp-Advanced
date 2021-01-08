@@ -42,7 +42,7 @@ namespace Bombs
             PrintMatrix(matrix);
         }
 
-        private static void PrintMatrix(int[,] matrix)
+        public static void PrintMatrix(int[,] matrix)
         {
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
