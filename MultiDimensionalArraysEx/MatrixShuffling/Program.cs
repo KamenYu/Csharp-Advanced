@@ -52,7 +52,7 @@ namespace MatrixShuffling
             }
         }
 
-        private static void PrintMatrix(string[,] matrix)
+        public static void PrintMatrix(string[,] matrix)
         {
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
@@ -64,7 +64,7 @@ namespace MatrixShuffling
             }           
         }
 
-        private static string[,] FillMatrix(int rows, int cols)
+        public static string[,] FillMatrix(int rows, int cols)
         {
             string[,] matrix = new string[rows, cols];
 
