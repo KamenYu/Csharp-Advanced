@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace CustomDoublyLinkedList
 {
-    public class LinkedList
+    public class DoublyLinkedList<T>
     {
-        public Node Head { get; set; }
+        public Node<T> Head { get; set; }
 
-        public Node Tail { get; set; }
+        public Node<T> Tail { get; set; }
 
 
-        public void AddFirst(Node newHead) // O(1)
+        public void AddFirst(Node<T> newHead) // O(1)
         {
             if (Head == null)
             {
@@ -25,7 +25,7 @@ namespace CustomDoublyLinkedList
             }
         }
         
-        public void AddLast(Node newTail) // O(1)
+        public void AddLast(Node<T> newTail) // O(1)
         {
             if (Tail == null)
             {
@@ -40,26 +40,26 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public bool Contains(int value) // O(n)
+        public bool Contains(T value) // O(n)
         {
             bool isThere = false;
 
             ForEach(node =>
             {
-                if (node.Value == value) isThere = true;
+                if (node.Value.Equals(value)) isThere = true;
                 
             });
 
             return isThere;
         }
 
-        public bool Remove(int value) // O(n)
+        public bool Remove(T value) // O(n)
         {
-            Node current = Head;
+            Node<T> current = Head;
 
             while (current != null)
             {
-                if (current.Value == value)
+                if (current.Value.Equals(value))
                 {
                     current.Previous.Next = current.Next;
                     current.Next.Previous = current.Previous;
@@ -71,7 +71,7 @@ namespace CustomDoublyLinkedList
             return false;
         }
 
-        public Node RemoveFirst() // O(1)
+        public Node<T> RemoveFirst() // O(1)
         {
             var oldHead = Head;
             Head = Head.Next;
@@ -79,7 +79,7 @@ namespace CustomDoublyLinkedList
             return oldHead;
         }
 
-        public Node RemoveLast() // O(1)
+        public Node<T> RemoveLast() // O(1)
         {
             var oldTail = Tail;
             Tail = Tail.Previous;
@@ -87,14 +87,14 @@ namespace CustomDoublyLinkedList
             return oldTail;
         }
 
-        public int Peek()
+        public T Peek()
         {
             return Head.Value;
         }
 
-        public void ForEach(Action<Node> action)
+        public void ForEach(Action<Node<T>> action)
         {
-            Node currentNode = Head;
+            Node<T> currentNode = Head;
 
             while (currentNode != null)
             {
@@ -113,7 +113,7 @@ namespace CustomDoublyLinkedList
 
         public void PrintReversedList()
         {
-            Node current = Tail;
+            Node<T> current = Tail;
 
             while (current != null)
             {
@@ -122,9 +122,9 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public Node[] ToArray()
+        public Node<T>[] ToArray()
         {
-            List<Node> list = new List<Node>();
+            List<Node<T>> list = new List<Node<T>>();
             ForEach(node => list.Add(node));
             return list.ToArray();
         }

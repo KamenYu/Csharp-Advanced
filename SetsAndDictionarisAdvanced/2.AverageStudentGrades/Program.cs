@@ -18,12 +18,10 @@ namespace _2.AverageStudentGrades
 
                 if (studentLog.ContainsKey(name) == false)
                 {
-                    studentLog.Add(name, new List<decimal>() { grade });
+                    studentLog.Add(name, new List<decimal>() {});
                 }
-                else
-                {
-                    studentLog[name].Add(grade);
-                }
+
+                studentLog[name].Add(grade);                
             }
 
             foreach (var student in studentLog)
