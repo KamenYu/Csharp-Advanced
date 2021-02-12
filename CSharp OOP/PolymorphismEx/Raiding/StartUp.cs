@@ -9,7 +9,7 @@ namespace Raiding
         static void Main(string[] args)
         {
             List<BaseHero> raiders = new List<BaseHero>();
-            BaseHero hero = null;
+            BaseHero hero;
 
             int n = int.Parse(Console.ReadLine());
             int counter = 0;
@@ -19,7 +19,7 @@ namespace Raiding
                 string name = Console.ReadLine();
                 string type = Console.ReadLine();
 
-                if (IsValid(type))
+                try
                 {
                     if (type == "Druid")
                     {
@@ -38,20 +38,30 @@ namespace Raiding
                     {
                         hero = new Warrior(name);
                     }
+                    else
+                    {
+                        throw new ArgumentException("Invalid hero!");
+                    }
 
                     counter++;
-                    Console.WriteLine(hero.CastAbility());
+                    
                     raiders.Add(hero);
-                }                
-                else
+                }
+                catch (Exception ex)
                 {
-                    Console.WriteLine("Invalid hero!");
-                }                
+                    Console.WriteLine(ex.Message);
+                }              
             }
 
-            int bossPower = int.Parse(Console.ReadLine());
+            long bossPower = long.Parse(Console.ReadLine());
 
-            int allPower = raiders.Select(x => x.Power).Sum();
+
+            foreach (var r in raiders)
+            {
+                Console.WriteLine(r.CastAbility());
+            }
+
+            long allPower = raiders.Select(x => x.Power).Sum();
 
             if (allPower >= bossPower)
             {
@@ -61,16 +71,6 @@ namespace Raiding
             {
                 Console.WriteLine("Defeat...");
             }
-        }
-
-        private static bool IsValid(string type)
-        {
-            if (type == "Druid" || type == "Paladin" || type == "Warrior" || type == "Rogue")
-            {
-                return true;
-            }
-
-            return false;
         }
     }
 }

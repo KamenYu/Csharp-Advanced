@@ -7,9 +7,12 @@
             Name = name;
         }
 
-        public string Name { get; set; }
-        public virtual int Power { get; }
+        public string Name { get; private set; }
+        public virtual int Power { get; private set; }
 
-        public abstract string CastAbility();
+        public virtual string CastAbility()
+        {
+            return null;
+        }
     }
 }
