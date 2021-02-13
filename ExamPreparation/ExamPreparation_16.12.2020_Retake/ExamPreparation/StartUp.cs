@@ -23,6 +23,11 @@ namespace ExamPreparation
             }
         }
 
+        public static bool IsValid(char[,] matrix, int row, int col)
+        {
+            return row >= 0 && row < matrix.GetLength(0) && col >= 0 && col < matrix.GetLength(1);
+        }
+
         public static string[,] FillMatrix(int rows, int cols)
         {
             string[,] matrix = new string[rows, cols]; // STRING[,]
@@ -39,6 +44,24 @@ namespace ExamPreparation
             }
 
             return matrix;
+        }
+
+        public static void PrintJagged(int[][] jagged)
+        {
+            for (int r = 0; r < jagged.Length; r++)
+            {
+                for (int c = 0; c < jagged[r].Length; c++)
+                {
+                    Console.Write(jagged[r][c] + " ");
+                }
+
+                Console.WriteLine();
+            }
+        }
+
+        public static bool IsJaggedValid(int[][] jagged, int row, int col)
+        {
+            return row >= 0 && row < jagged.Length && col >= 0 && col < jagged[row].Length; // boboo fixed
         }
     }
 }
