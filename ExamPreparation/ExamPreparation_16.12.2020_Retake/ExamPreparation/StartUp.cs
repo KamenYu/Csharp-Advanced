@@ -23,7 +23,30 @@ namespace ExamPreparation
             }
         }
 
-        public static bool IsValid(char[,] matrix, int row, int col)
+        public static int[] BeeMoving(int row, int col, string command)
+        {
+            if (command == "up")
+            {
+                row--;
+            }
+            else if (command == "down")
+            {
+                row++;
+            }
+            else if (command == "left")
+            {
+                col--;
+            }
+            else
+            {
+                col++;
+            }
+
+            int[] beeCoordinates = new int[2] { row, col };
+            return beeCoordinates;
+        }
+
+        public static bool IsValid(char[,] matrix, int row, int col) // for matrix
         {
             return row >= 0 && row < matrix.GetLength(0) && col >= 0 && col < matrix.GetLength(1);
         }
