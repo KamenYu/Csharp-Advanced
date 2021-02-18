@@ -84,7 +84,7 @@ namespace Task2
                 {
                     if (matrix[row, col] == 'B')
                     {
-                        if (row != startRow || col != startCol) // CHECK
+                        if (row != startRow || col != startCol)
                         {
                             newPosition = new int[2] { row, col };
                         }                       
