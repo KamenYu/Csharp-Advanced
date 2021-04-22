@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterStrike", "CounterStrike\CounterStrike.csproj", "{9EC39B4A-E186-4089-858A-48F05E37EA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootForTheWin", "ShootForTheWin\ShootForTheWin.csproj", "{906F3492-31FE-4C01-B6E4-306279260A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingTarget", "MovingTarget\MovingTarget.csproj", "{16E28198-9CAE-41D5-8BC5-233A287C8333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC39B4A-E186-4089-858A-48F05E37EA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC39B4A-E186-4089-858A-48F05E37EA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC39B4A-E186-4089-858A-48F05E37EA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC39B4A-E186-4089-858A-48F05E37EA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906F3492-31FE-4C01-B6E4-306279260A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906F3492-31FE-4C01-B6E4-306279260A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906F3492-31FE-4C01-B6E4-306279260A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906F3492-31FE-4C01-B6E4-306279260A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E28198-9CAE-41D5-8BC5-233A287C8333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E28198-9CAE-41D5-8BC5-233A287C8333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E28198-9CAE-41D5-8BC5-233A287C8333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E28198-9CAE-41D5-8BC5-233A287C8333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

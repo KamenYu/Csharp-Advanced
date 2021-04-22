@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reception", "Reception\Reception.csproj", "{4C231A8D-EC36-466D-AF61-B8E9EC228AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayModifier", "ArrayModifier\ArrayModifier.csproj", "{A3AEF672-129A-4F34-A56B-E661E426D81E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.csproj", "{336B8B52-C17E-4B45-B1AB-E2673354AAC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C231A8D-EC36-466D-AF61-B8E9EC228AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C231A8D-EC36-466D-AF61-B8E9EC228AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C231A8D-EC36-466D-AF61-B8E9EC228AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C231A8D-EC36-466D-AF61-B8E9EC228AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3AEF672-129A-4F34-A56B-E661E426D81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3AEF672-129A-4F34-A56B-E661E426D81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3AEF672-129A-4F34-A56B-E661E426D81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3AEF672-129A-4F34-A56B-E661E426D81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336B8B52-C17E-4B45-B1AB-E2673354AAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336B8B52-C17E-4B45-B1AB-E2673354AAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336B8B52-C17E-4B45-B1AB-E2673354AAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336B8B52-C17E-4B45-B1AB-E2673354AAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

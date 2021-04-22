@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueOrigin", "BlueOrgin\BlueOrigin.csproj", "{6AD2CF88-B523-4D5F-9382-790A143C3C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueOrigin.Tests", "BlueOrigin.Tests\BlueOrigin.Tests.csproj", "{A8EA9056-EE5A-4CC9-91E0-A154838A525C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AD2CF88-B523-4D5F-9382-790A143C3C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD2CF88-B523-4D5F-9382-790A143C3C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD2CF88-B523-4D5F-9382-790A143C3C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD2CF88-B523-4D5F-9382-790A143C3C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EA9056-EE5A-4CC9-91E0-A154838A525C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EA9056-EE5A-4CC9-91E0-A154838A525C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EA9056-EE5A-4CC9-91E0-A154838A525C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EA9056-EE5A-4CC9-91E0-A154838A525C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7365031C-C95B-4221-A46F-7533292A746B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneylandJourney", "DisneylandJourney\DisneylandJourney.csproj", "{AD323B69-DB17-4858-AE90-B3783AC98326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcheryTournament", "ArcheryTournament\ArcheryTournament.csproj", "{845D5CB5-3607-49CA-A629-3FFE2829BD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD323B69-DB17-4858-AE90-B3783AC98326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD323B69-DB17-4858-AE90-B3783AC98326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD323B69-DB17-4858-AE90-B3783AC98326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD323B69-DB17-4858-AE90-B3783AC98326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845D5CB5-3607-49CA-A629-3FFE2829BD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845D5CB5-3607-49CA-A629-3FFE2829BD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845D5CB5-3607-49CA-A629-3FFE2829BD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845D5CB5-3607-49CA-A629-3FFE2829BD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusScoringSystem", "BonusScoringSystem\BonusScoringSystem.csproj", "{69C779B0-7108-40F3-8C21-CA0A7573FDEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MU_Online", "MU_Online\MU_Online.csproj", "{CA0FDBB8-51E6-4436-9823-F17924752356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory", "Inventory\Inventory.csproj", "{6C47591E-74C5-475F-B0D2-6D8156AF5E5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C779B0-7108-40F3-8C21-CA0A7573FDEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C779B0-7108-40F3-8C21-CA0A7573FDEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C779B0-7108-40F3-8C21-CA0A7573FDEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C779B0-7108-40F3-8C21-CA0A7573FDEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0FDBB8-51E6-4436-9823-F17924752356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0FDBB8-51E6-4436-9823-F17924752356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0FDBB8-51E6-4436-9823-F17924752356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0FDBB8-51E6-4436-9823-F17924752356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C47591E-74C5-475F-B0D2-6D8156AF5E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C47591E-74C5-475F-B0D2-6D8156AF5E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C47591E-74C5-475F-B0D2-6D8156AF5E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C47591E-74C5-475F-B0D2-6D8156AF5E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

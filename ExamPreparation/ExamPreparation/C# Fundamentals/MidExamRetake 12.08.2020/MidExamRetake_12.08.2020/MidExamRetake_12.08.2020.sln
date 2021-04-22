@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerStore", "ComputerStore\ComputerStore.csproj", "{4280642E-2F06-4D64-895B-F0F850B77FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLift", "TheLift\TheLift.csproj", "{7A15F27B-4366-4252-9D5A-014DD14C2BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame\MemoryGame.csproj", "{F86B6807-F2BC-4D94-B3D7-C3A7589F35AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4280642E-2F06-4D64-895B-F0F850B77FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4280642E-2F06-4D64-895B-F0F850B77FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4280642E-2F06-4D64-895B-F0F850B77FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4280642E-2F06-4D64-895B-F0F850B77FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A15F27B-4366-4252-9D5A-014DD14C2BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A15F27B-4366-4252-9D5A-014DD14C2BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A15F27B-4366-4252-9D5A-014DD14C2BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A15F27B-4366-4252-9D5A-014DD14C2BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86B6807-F2BC-4D94-B3D7-C3A7589F35AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86B6807-F2BC-4D94-B3D7-C3A7589F35AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86B6807-F2BC-4D94-B3D7-C3A7589F35AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86B6807-F2BC-4D94-B3D7-C3A7589F35AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
